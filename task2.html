@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Функции в JavaScript. Задание #2</title>
+  </head>
+  <body>
+    <h1>Функции в JavaScript</h1>
+    <h2>Задание 2.</h2>
+    <p>
+      Необходимо создать функцию getSumOfNumbers(). Она будет считать сумму от 0
+      до переданного числа. Выберите любой из 3 типов при создании функции.
+    </p>
+    <p>getSumOfNumbers() принимает в себя 2 параметра: number и type.</p>
+    <p>
+      Параметр number - это число, до которого будет считаться сумма. То есть,
+      если было передано число 10, то функция должна посчитать сумму от 0 до 10
+      (0 + 1 + 2 + … + 10). Если параметр не передан или значение было не
+      числом, то из функции необходимо вернуть NaN.
+    </p>
+    <p>
+      Параметр type отвечает за выбор чисел для подсчета суммы. Он может быть
+      одним из 3-х значений: "odd", "even" и "". Если type равняется "odd", то в
+      сумму должны входить только нечетные числа, "even" - четные числа, пустая
+      строка "" - все числа. По умолчанию параметр type должен быть равен "odd".
+    </p>
+    <p>
+      Функция getSumOfNumbers() должна возвращать итоговую сумму с помощью
+      return.
+    </p>
+    <p>Возможные результаты функции getSumOfNumbers():</p>
+    <p>
+      console.log(getSumOfNumbers(10, "odd")); // 25 <br />
+      console.log(getSumOfNumbers(10, "even")); // 30 <br />
+      console.log(getSumOfNumbers(10, "")); // 55
+    </p>
+    <a href="index.html">На главную страницу</a>
+    <script src="task2.js"></script>
+  </body>
+</html>
